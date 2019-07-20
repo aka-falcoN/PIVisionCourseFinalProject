@@ -15,7 +15,7 @@
 				DataShape: 'Table',
 				Height: 200,
 				Width: 400,
-				BackgroundColor: 'lightskyblue',
+				BackgroundColor: '#2C3D42',
 				TextColor: 'black'
 			} 
 		},
@@ -81,7 +81,7 @@
 		}
 		
 		function dataUpdate(data){
-			console.log(data);
+			
 			if( !data) return;
 			if( data.Rows[0].Label) updateLabel(data);
 			if( !labels || !chart) return;
